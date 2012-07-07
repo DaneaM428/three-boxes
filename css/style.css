@@ -4,13 +4,22 @@ body {
 #container {
   background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid #ccc;
-  margin: 60px auto;
-  min-height: 320px;
-  width: 960px; }
-  #container #extras {
-    text-align: center;
-    clear: both;
-    padding: 1em; }
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75%;
+  position: absolute;
+  display: table; }
+  #container #application {
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+    width: 960px; }
+    #container #application #boxes {
+      margin: auto; }
+    #container #application #extras {
+      clear: both;
+      padding: 1em; }
 
 .box {
   background-color: #AAA;
