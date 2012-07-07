@@ -1,9 +1,7 @@
-var $bluebox, $greenbox, $redbox, $button1, $button2, $button3;
+// Here is place where you can write your own custom JavaScript!
 
-$redbox = $('#red');
-$bluebox = $('#blue');
-$greenbox = $('#green');
+$(document).ready(function () {
 
-$button1 = $('#button1');
-$button2 = $('#button2');
-$button3 = $('#button3');
+	// Delete this line and insert your code.
+
+});
