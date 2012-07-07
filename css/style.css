@@ -9,6 +9,7 @@ body {
   width: 960px; }
   #container #extras {
     text-align: center;
+    clear: both;
     padding: 1em; }
 
 .box {
